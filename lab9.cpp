@@ -13,7 +13,9 @@ void main()
 double maxr(double *a,int n)
 {
 	if(n==1)
-		return a[0];
+		{
+			return a[0];
+		}
 	if(n==2)
 		{
 			return __max(a[0],a[1]);
