@@ -21,7 +21,6 @@ double maxr(double *a,int n)
 		{
 			return max(a[0],a[1]);
 		}
-	
 	double max1 = maxr(a, n/2);
 	double max2 = maxr(a + n/2, n/2);
 	return max(max1, max2);
